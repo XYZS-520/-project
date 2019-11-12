@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+
+
+
+.topper {
+    font-size: 12px;
+    height: 30px;
+    line-height: 29px;
+    color: #727272;
+    background-color: #fcfcfc;
+    border-bottom: 1px solid #e2e2e2;
+}
+.topper a {
+    color: inherit;
+}
+.topper a:hover {
+    color: #ca0e25;
+}
+.topper-links {
+    float: left;
+}
+.topper-links li {
+    position: relative;
+    float: left;
+    padding: 0 9px 0 10px;
+}
+.topper-links li:before {
+    position: absolute;
+    content: '';
+    top: 50%;
+    left: 0; margin-top: -6px;
+    height: 12px;
+    border-left: 1px solid #727272;
+}
+.topper-links li:first-child:before {
+    content: none;
+}
+.topper-links li.user a {
+    color: #ca0e25;
+}
+.topper-links li.user a:hover {
+    text-decoration: underline;
+}
+.topper-links .cnum {
+    color: #ca0e25;
+}
+.topper-links .erwei {
+    position: relative; z-index: 11;
+}
+.topper-links .erwei a {
+    display: block; margin: 0 -9px 0 -10px; padding: 0 9px; }
+.topper-links .erwei:hover a { height: 30px; background-color: #fff; }
+.topper-links .erwei:hover:before { top: 0; margin-top: 0; height: 100%; border-left-color: #ddd; }
+.topper-links .erwei:hover:after { position: absolute; top: 0; right: 0; height: 100%; content: ''; border-right: 1px solid #ddd; }
+.topper-links .erwei:hover .subbox { display: block; }
+.topper-links .subbox { position: absolute; z-index: -1; top: 100%; right: 0; display: none; margin-top: -1px; padding: 10px; text-align: center; background-color: #fff; border: 1px solid #ddd; }
+.topper-links .subbox .pic { vertical-align: middle; width: 136px; height: 136px; }
+.topper-links .subbox .label { display: block; color: #333; line-height: 28px; }
+
+.header { height: 120px; background-color: #fff; }
+.header .wrapper { position: relative; }
+.header .logo { float: left; margin: 25px 0 0 0; width: 140px; height: 70px; overflow: hidden; text-indent: 110%; white-space: nowrap; background-repeat: no-repeat; }
+.header .city-info { float: left; margin: 39px 0 0; }
+.header .city-info .city { overflow: hidden; margin-bottom: 8px; font-size: 12px; line-height: 16px; color: #a3a3a3;}
+.header .city-info .city .name { float: left; padding-left: 15px; color: #c71b2f; background: url("../img/dingwei.png") no-repeat left; }
+.header .city-info .slogan { width: 215px; height: 18px; overflow: hidden; text-indent: 110%; white-space: nowrap; background: url("../img/logo02.png") no-repeat; }
+.header .ad { float: right; height: 120px; }
+.header .sch-wrap { position: absolute; top: 42px; left: 462px; width: 429px; height: 38px; border: none;}
+.header .sch-wrap .searchclass{border: none;}
+.header .sch-wrap .q { position: absolute; top: 0; left: 0; width: 332px; height: 38px;  padding-left: 18px; line-height: 24px; font-size: 12px; border: solid 1px #000; -webkit-border-radius: 38px 0 0 38px; border-radius: 38px 0 0 38px; }
+.header .sch-wrap .tj { position: relative; float: right; width: 79px; height: 100%; background: #555 url(../img/search.png) no-repeat 8px 11px; color: #fff; border: none; cursor: pointer; -webkit-border-radius: 0 38px 38px 0; border-radius: 0 38px 38px 0; }
+.header .sch-wrap .sr-only{ line-height: 38px;}
+
+
+.footer-t { padding: 25px 0 24px; background-color: #373636; border-bottom: 1px solid #403f3f; }
+.footer-t .inner-wrap { line-height: 0; text-align: justify; }
+.footer-t .inner-wrap:after { display: inline-block; margin: 0; padding: 0; width: 100%; height: 0; overflow: hidden; content: ''; }
+.footer-t .inner-wrap .item { display: inline-block; vertical-align: middle; padding-right: 10px; height: 70px; }
+.footer-t .inner-wrap .ico { float: left; width: 70px; height: 70px; }
+.footer-t .inner-wrap .cnt { margin-left: 70px; padding-left: 20px; line-height: 24px; }
+.footer-t .inner-wrap .tit { margin: 14px 0 0; font-size: 20px; color: #fff; }
+.footer-t .inner-wrap .desc { font-size: 12px; color: #a7a6a6; }
+
+.footer-m { padding: 32px 0; font-size: 12px; line-height: 21px; color: #888; background-color: #373636; }
+.footer-m .col-links { float: left; overflow: hidden; }
+.footer-m .col-links .col { float: left; padding: 0 40px 200px; margin: 8px 0 -200px; border-left: 1px solid #4b4a4a; }
+.footer-m .col-links .col:first-child { margin-left: -40px; }
+.footer-m .col-links .tit { margin: -10px 0 5px; font-size: 16px; line-height: 35px; color: #fff; }
+.footer-m .col-links .list a { color: inherit; }
+.footer-m .col-links .list a:hover { text-decoration: underline; }
+.footer-m .col-erwei { float: right; }
+.footer-m .col-erwei .code { float: left; margin: 5px 0 0; line-height: 26px; text-align: center; }
+.footer-m .col-erwei .code img { width: 100px; height: 100px; }
+.footer-m .col-erwei .info { margin-left: 100px; padding-left: 10px; }
+.footer-m .col-erwei .info .tel { margin: 5px 0; font-size: 24px; color: #bbb; }
+.footer-m .col-erwei .info strong { font-weight: normal; }
+
+.friend-links { padding: 10px 35px; font-size: 12px; color: #888; background-color: #373636;}
+.friend-links ul { width: 1200px; margin: 0 auto;}
+.friend-links li { padding: 2px 5px; float:left; line-height: 25px; height: 25px;}
+.friend-links a { color: #888; }
+.friend-links a:hover { text-decoration: underline; }
+
+.footer { padding: 20px 0; font-size: 12px; color: #fff; text-align: center; background-color: #323232; border-top: 1px solid #403f3f; }
+.footer a { color: inherit; }
+.footer a:hover { text-decoration: underline; }
+.footer .links { font-size: 0; margin: 5px 0 12px; }
+.footer .links li { display: inline-block; vertical-align: middle; padding: 0 10px; font-size: 14px; line-height: 15px; color: #bbb; border-left: 1px solid #bbb; }
+.footer .links li:first-child { border-left: none; }
+.footer .copyright { line-height: 32px; opacity: 0.4;}
