@@ -40,7 +40,6 @@ main{margin-bottom: 20px;}
 
 .main-dh .floor-00 li .fl00-img{height: 345px;
     padding: 15px 10px;}
-.main-dh .floor-00 li .fl00-img img{}
 .main-dh .floor-00 .fl00-xx{height: 63px;padding: 10px;border-top: solid 1px #f4b1b9 ;}
 .main-dh .floor-00 .fl00-xx .fl00-xx-ms{float: left;font-size: 18px;
     color: #444;width: 170px;
@@ -59,6 +58,8 @@ main{margin-bottom: 20px;}
     border-radius: 3px;
     font-size: 12px;
 }
+
+.fl-bottom{margin-top: 20px;}
 /* .floor-01{background: #299;}
 .floor-02{background: #292;}
 .floor-03{background: #229;}
@@ -248,7 +249,7 @@ nav .title01 .nav-r li a.active{background-color: #f67a0c;}
 
 
 
-.songliwu .banner02{float: left;width: 628px;height: 428px;border: 1px solid #e5e5e5;position: relative;}
+.songliwu .banner02{float: left;width: 628px;height: 430px;border: 1px solid #e5e5e5;position: relative;}
 .songliwu .banner02 .bannerbig{height: 378.108px;overflow: hidden;margin-top: 10px;
 }
 .songliwu .banner02 .bannerbig-t{
@@ -274,7 +275,6 @@ nav .title01 .nav-r li a.active{background-color: #f67a0c;}
     width: 315px;
     height: 320px;
     text-align: center;
-    vertical-align: middle;
 }
 .songliwu .banner02 .banner02-t .banner02-t-r{
     width: 312px;
@@ -323,9 +323,50 @@ position: absolute;right: 0;top: 0;}
     width: 150px;
 }
 
-.songliwu .banner02 .banner02-b{}
+/* .songliwu .banner02 .banner02-b{} */
 
+.kehuserver{
+width: 250px;float: right;
+}
+.kehuserver .kf-title{
+    background-color: #ca0e25;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 20px;  
+}
 
+.kehuserver .kf-main {
+    width: 100%;
+    border: 1px solid #e0e0e0;
+    border-top: none;
+    padding: 12px 0;
+    height: 356px;
+}
+.kehuserver .kf-main li{
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 12px;
+    padding-left: 45px;
+    color: #464646;
+    font-size: 18px;
+}
+.kehuserver .kf-main .kefu-wx{
+    text-align: center;
+    color: #333;
+    line-height: 20px;
+}
+.kehuserver .kf-main .kefu-wx img {
+    width: 177px;
+    height: 177px;
+}
+.kehuserver .kf-main .kefu-wx .kefu-wx-b{
+    text-align: center;
+}
+.kehuserver .kf-main .kefu-wx .kefu-wx-b strong{display: block;}
+.kehuserver .kf-main .kefu-wx .kefu-wx-b span{display: block;}
 /* .box{width:1130px;height:300px;margin:0 auto;position: relative;overflow: hidden;}
 .imgbox{width:1130px;height:300px;}
 .imgbox img{width:1130px;height:300px;position: absolute;left:1130px;top:0}

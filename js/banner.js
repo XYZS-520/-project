@@ -85,7 +85,7 @@
                     width:80,
                     height:20,
                     borderRadius:"30px",
-                    background:"url(../img/banner2-01.jpg)",
+                    background:"#ccc",
                     margin:"0 20px",
                     cursor:"pointer"
                 }).eq(that.index).css({
