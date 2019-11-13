@@ -12,60 +12,62 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/identical.css">
     <link rel="stylesheet" href="xianhuacss/shoplist.css">
+    <!-- <link rel="stylesheet" href="bootstrapDowload/bootstrap.css"> -->
 </head>
 
 <body>
     <!-- 头部 -->
-    <div class="topper">
-        <div class="wrapper">
-            <div class="fl">
-                鲜花速递网,鲜花预定,本地送花品牌鲜花店！全国送花热线：000000000000/00000000000
+    <div id="topAll">
+        <div class="topper">
+            <div class="wrapper">
+                <div class="fl">
+                    鲜花速递网,鲜花预定,本地送花品牌鲜花店！全国送花热线：000000000000/00000000000
+                </div>
+                <div class="fr">
+                    <ul class="topper-links">
+                        <li><a href="">登录</a>&nbsp;<a href="">[注册]</a></li>
+                        <li><a href="" target="_blank">购物车(<span class="cnum"> 0
+                                </span>)</a></li>
+                        <li class="erwei"><a href="" rel="nofollow">微信订花公众号</a>
+                            <div class="subbox">
+                                <img class="pic" src="https://www.xinyixianhua.com/resource/img/ewm.jpg" alt="心意鲜花网二维码" />
+                            </div>
+                        </li>
+                        <li class="erwei"><a href="" rel="nofollow">微信订花客服</a>
+                            <div class="subbox">
+                                <img class="pic" src="https://www.xinyixianhua.com/resource/img/ewm_kefu.jpg"
+                                    alt="微信订花客服二维码" />
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="fr">
-                <ul class="topper-links">
-                    <li><a href="">登录</a>&nbsp;<a href="">[注册]</a></li>
-                    <li><a href="" target="_blank">购物车(<span class="cnum"> 0
-                            </span>)</a></li>
-                    <li class="erwei"><a href="" rel="nofollow">微信订花公众号</a>
-                        <div class="subbox">
-                            <img class="pic" src="https://www.xinyixianhua.com/resource/img/ewm.jpg" alt="心意鲜花网二维码" />
-                        </div>
-                    </li>
-                    <li class="erwei"><a href="" rel="nofollow">微信订花客服</a>
-                        <div class="subbox">
-                            <img class="pic" src="https://www.xinyixianhua.com/resource/img/ewm_kefu.jpg"
-                                alt="微信订花客服二维码" />
-                        </div>
-                    </li>
-                </ul>
+        </div>
+        <div class="header">
+            <div class="wrapper">
+                <a class="logo" href=""
+                    style="background-image: url('https://www.xinyixianhua.com/resource/img/logo.png')">心意鲜花网</a>
+                <div class="city-info">
+                    <div class="city">
+                        <a class="name" href="">放得开了疯狂法</a>按时缴费雷克萨弗利萨等级分类
+                    </div>
+                    <div class="slogan">提供全国鲜花预定、鲜花速递、网上送花订花服务!</div>
+                </div>
+                <div class="sch-wrap">
+                    <div class="schbar">
+                        <form id="searchform" class="searchclass" action="">
+                            <input id="searchkeywords" name="q" class="q" type="text" autocomplete="off" value="红玫瑰" />
+                            <button type="submit" class="tj">
+                                <span id="searchbutton" class="sr-only">搜索</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div><span class="sr-only"></span><img src="https://www.xinyixianhua.com/resource/img/header-ad.jpg"
+                        class="ad" alt="鲜花预定电话" /></div>
             </div>
         </div>
     </div>
-    <div class="header">
-        <div class="wrapper">
-            <a class="logo" href=""
-                style="background-image: url('https://www.xinyixianhua.com/resource/img/logo.png')">心意鲜花网</a>
-            <div class="city-info">
-                <div class="city">
-                    <a class="name" href="">放得开了疯狂法</a>按时缴费雷克萨弗利萨等级分类
-                </div>
-                <div class="slogan">提供全国鲜花预定、鲜花速递、网上送花订花服务!</div>
-            </div>
-            <div class="sch-wrap">
-                <div class="schbar">
-                    <form id="searchform" class="searchclass" action="">
-                        <input id="searchkeywords" name="q" class="q" type="text" autocomplete="off" value="红玫瑰" />
-                        <button type="submit" class="tj">
-                            <span id="searchbutton" class="sr-only">搜索</span>
-                        </button>
-                    </form>
-                </div>
-            </div>
-            <div><span class="sr-only"></span><img src="https://www.xinyixianhua.com/resource/img/header-ad.jpg"
-                    class="ad" alt="鲜花预定电话" /></div>
-        </div>
-    </div>
-
     <!-- 导航 -->
     <nav class="">
         <div class="title01 clear">
@@ -261,15 +263,19 @@
         </ul>
     </section>
 
-
-
-
-
-
-
-
-
-
+    <!-- <section class="fenye">
+        <div class="row justify-content-center mt-5">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination pagination-sm">
+                    <li class="page-item disabled"><a class="page-link" href="#">上一页</a></li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item"><a class="page-link" href="#">下一页</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section> -->
 
 
     <div class="footer-t">
@@ -413,84 +419,12 @@
 </body>
 <script src="js/ajax.js"></script>
 <script src="js/cookie.js"></script>
+<script src="js/shoplist.js"></script>
 <script>
-    class List{
-        constructor(options){
-            this.cont = options.cont;
-            this.url = options.url;
-            this.load();
-            this.addEvent();
-
-        }
-        load(){
-            var that = this;
-            ajaxGet(this.url,function(res){
-                that.res = JSON.parse(res);
-                that.display()
-            })
-        }
-        display(){
-            var str = "";
-            for(var i=0;i<this.res.length;i++){
-                str +=  `<li  class="box" index="${this.res[i].goodsId}">
-                            <a href="" class="shoplistimg">
-                                <img src="${this.res[i].img}" alt="">
-                            </a>
-                            <div class="shopxinxi">
-                                <div class="shopxinxi-t">
-                                    <a href="" >${this.res[i].name}</a>
-                                </div>
-                                <div class="shopxinxi-b">
-                                    <div class="shopjiage">
-                                        <span class="num">${this.res[i].price}</span>
-                                    </div>
-                                    <a href="" class="btn" >立即购买</a>
-                                </div>
-                            </div>
-                        </li>`;
-            }
-            this.cont.innerHTML = str;
-        }
-        addEvent(){
-            var that = this;
-            this.cont.onclick = function(eve){
-                if(eve.target.className == "btn"){
-                    that.id = eve.target.parentNode.getAttribute("index");
-                    that.setCookie();
-                }
-            }
-        }
-        setCookie(){
-            this.goods = getCookie("goods") ? JSON.parse(getCookie("goods")) : [];
-            if(this.goods.length == 0){
-                this.goods.push({
-                    id:this.id,
-                    num:1
-                })
-            }else{
-                var onoff = true;   
-                for(var i=0;i<this.goods.length;i++){
-                    if(this.goods[i].id === this.id){
-                        this.goods[i].num++;
-                        onoff = false;
-                    }
-                }
-                if(onoff){
-                    this.goods.push({
-                        id:this.id,
-                        num:1
-                    })
-                }
-            }
-            setCookie("goods",JSON.stringify(this.goods));
-        }
-    }
-    
-
-    new List({
-        url:"http://localhost/1023-server/floors/xianhua/goods.json",
-        cont:document.querySelector(".cont")
+     $(function(){
+        $("#topAll").load("http://localhost/1023-server/project/src/html-header/topAll.html #topAll");
+        $("#footer").load("http://localhost/1023-server/project/src/html-header/footer.html .footer");
     })
-    
 </script>
 </html>
+
