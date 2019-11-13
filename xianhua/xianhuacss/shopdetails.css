@@ -23,6 +23,174 @@ a {
 }
 .songxianhua a:hover { color: #ca0e25;}
 
+.shopmain {
+    margin-bottom: 50px;
+    height: 600px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid #d7d7d7;
+}
+.shopmain-l {
+    float: left;
+    width: 472px;
+    min-height: 610px;
+}
+
+.shopmain-l .shopmian-l-box {
+    width: 452px;
+    margin: 10px auto 0;
+}
+.shopmain-l .shopmian-l-box .shopmian-l-big {
+    position: relative;
+    z-index: 3;
+    height: 502px;
+    margin-bottom: 10px;
+}
+
+.shopmain-l .shopmian-l-box .shopmian-l-big img {
+    width: 450px;
+    height: 500px;
+}
+
+.shopmain-l .shopmian-l-box .shopmian-l-small{
+    position: relative;
+}
+.shopmain-l .shopmian-l-box .shopmian-l-small {
+    position: relative;
+}
+
+.shopmain-l .shopmian-l-box .shopmian-l-small .tumbs {
+    margin: 0 39px 0 36px;
+    width: auto;
+    overflow: hidden;
+    height: 78px;
+    font-size: 0;
+}
+.shopmain-l .shopmian-l-box .shopmian-l-small .tumbs {
+    display: none;
+    position: relative;
+    width: 375px;
+}
+
+.shopmain-l .shopmian-l-box .shopmian-l-small .tumbs {
+    padding-left: 0;
+}
+.shopmain-l .shopmian-l-box .shopmian-l-small .tumbs li img{
+    width: 78px;
+    height: 78px;
+    vertical-align: middle;
+}
+/* .owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+} */
+.shopmain-l .shopmian-l-box .shopmian-l-small .tumbs-nav .prev{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35px;
+    height: 78px;
+    line-height: 78px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #d7d7d7;
+}
+.shopmain-l .shopmian-l-box .shopmian-l-small .tumbs-nav .next {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35px;
+    height: 78px;
+    line-height: 78px;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    border: 1px solid #d7d7d7;
+}
+.goods-info { float: left; width: 665px; min-height: 610px; padding: 0 32px 0 28px; border-left: 1px solid #e5e5e5; }
+.goods-info .title-box { margin: 0 0 15px 10px; overflow: hidden; }
+.goods-info .title-box .pub { font-size: 14px; color: #ca0e25; width:400px; }
+.goods-info .name-row { margin: 5px 0 5px; overflow: hidden; line-height: 35px; }
+.goods-info .name-row .tit { overflow: hidden; font-size: 20px; color: #333; width:370px;}
+.goods-info .name-row .hua { font-size: 28px; font-weight: 700; }
+.goods-info .price-box { padding: 10px 0 10px 10px; margin: 0 0 15px 0; overflow: hidden; color: #777; background: #f1f1f1; }
+.goods-info .price-box .defbox { padding: 5px 0 0; overflow: hidden; line-height: 40px; }
+.goods-info .price-box .defbox .op { float: left; margin-right: 40px; font-size: 22px; color: #333; font-weight: 700; }
+.goods-info .price-box .defbox .op .num { color: #ca0e25; }
+.goods-info .price-box .defbox .op .old-num{ font-size:14px;padding:0 3px;color:#444;text-decoration:line-through; font-weight:normal;}
+.goods-info .price-box .fesbox .np { color: #333; font-size: 18px; line-height: 30px; font-weight: 700; }
+.goods-info .price-box .fesbox .np .num { display: inline-block; vertical-align: middle; margin-top: -3px; color: #ca0e25; }
+.goods-info .price-box .fesbox .sp { margin-top: 5px; font-size: 16px; line-height: 20px; color: #888; }
+.goods-info .price-box .fesbox .sp .num { text-decoration: line-through; }
+.goods-info .price-box .lbox { position: relative; float: left; margin-right: 70px; }
+.goods-info .price-box .lbox .ap { margin-top: 5px; color: #333; font-size: 18px; line-height: 40px; font-weight: 700; }
+.goods-info .price-box .lbox .ap .num { display: inline-block; vertical-align: middle; margin-top: -3px; color: #ca0e25; }
+.goods-info .price-box .rbox { float: left; }
+.goods-info .price-box .rbox .pp { color: #ca0e25; font-size: 22px; line-height: 45px; }
+.goods-info .price-box .rbox .pp .num { font-size: 28px; }
+.goods-info .evalute { padding-top: 8px; color: #ca0e25; clear: both; }
+.goods-info .evalute .ui-star { margin: -2px 10px 0 0; }
+.goods-info .discount { overflow: hidden; margin-bottom: 10px; padding-bottom: 17px; font-size: 12px; color: #58524d; border-bottom: 1px dotted #ccc; }
+.goods-info .discount .item { float: left; clear: both; padding: 0 15px 0 0; margin-bottom: 4px; height: 18px; line-height: 18px; background-color: #fff0e2; -webkit-border-radius: 100px; border-radius: 100px; }
+.goods-info .discount .label { display: inline-block; vertical-align: middle; margin: -2px 8px 0 0; padding: 0 11px; color: #fff; background-color: #f67a0c; -webkit-border-radius: 100px; border-radius: 100px; }
+.goods-info .row-info { overflow: hidden; padding: 8px 0 8px 10px; line-height: 20px; font-size: 12px; border-bottom: 1px dashed #ccc; }
+.goods-info .row-info .k { float: left; width: 60px; color: #888; }
+.goods-info .row-info .v { overflow: hidden; color: #666; }
+.goods-info .row-info .lh { color: #ca0e25; }
+.goods-action .btn {
+    float: left;
+    width: 190px;
+    margin-top: 20px;
+    margin-left: 100px;
+    height: 46px;
+    line-height: 44px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #ca0e25;
+    background-color: #ca0e25
+}
+.goods-action a{
+    cursor: pointer;
+    float: left;
+    width: 190px;
+    margin-top: 20px;
+    margin-left: 10px;
+    height: 46px;
+    line-height: 44px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 4px;
+    color: #fff;
+    border: 1px solid #ca0e25;
+    background-color: #ca0e25
+}
+
+.xxbox{width:920px;border:solid 1px #d7d7d7;margin: 20px ;}
+.xxbox .xxktitle{display: flex;height:60px;
+    text-align: center;
+    line-height: 60px;
+    border-bottom: 1px solid #d7d7d7;}
+.xxbox .xxktitle div{flex:1;border-left:solid 1px #d7d7d7;border-right: solid 1px #d7d7d7;}
+/* .xxbox .xxktitle:nth-child(1){border: none;} */
+.xxbox .xxktitle div.active span{color: #ca0e25;}
+.xxbox .xxkneir{}
+.xxkneir p{display: none;}
+.xxkneir p:nth-child(1){display: block;}
+.xxkneir p:nth-child(2){}
+.xxkneir p:nth-child(3){}
+
+
+
+
+
+
+
 
 
 

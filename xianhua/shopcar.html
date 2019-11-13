@@ -1,146 +1,336 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <style>
-        
-        img{width:100px;}
-    
-    </style>
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x.icon">
+    <link rel="stylesheet" href="../css/public.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/identical.css">
+    <link rel="stylesheet" href="xianhuacss/shopcar.css">
 </head>
+
 <body>
-    <h2>这是购物车<a href="shoplist.html">继续购物</a></h2>
-    <table border="1" cellspacing="0" width="1000" align="center">
-        <thead>
-            <tr>
-                <th>图片</th>
-                <th>名字</th>
-                <th>价格</th>
-                <th>数量</th>
-                <th>操作</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td colspan="5">购物车暂时为空，请<a href="shoplist.html">继续购物</a></td>
-            </tr>
-            <!-- <tr>
-                <td><img src="" alt=""></td>
-                <td></td>
-                <td></td>
-                <td><input type="number" min="1"></td>
-                <td><span>删除</span></td>
-            </tr> -->
-        </tbody>
-    </table>
+
+    <div id="topAll">
+        <div class="topper">
+            <div class="wrapper">
+                <div class="fl">
+                    鲜花速递网,鲜花预定,本地送花品牌鲜花店！全国送花热线：000000000000/00000000000
+                </div>
+                <div class="fr">
+                    <ul class="topper-links">
+                        <li><a href="">登录</a>&nbsp;<a href="">[注册]</a></li>
+                        <li><a href="" target="_blank">购物车(<span class="cnum"> 0
+                                </span>)</a></li>
+                        <li class="erwei"><a href="" rel="nofollow">微信订花公众号</a>
+                            <div class="subbox">
+                                <img class="pic" src="https://www.xinyixianhua.com/resource/img/ewm.jpg"
+                                    alt="心意鲜花网二维码" />
+                            </div>
+                        </li>
+                        <li class="erwei"><a href="" rel="nofollow">微信订花客服</a>
+                            <div class="subbox">
+                                <img class="pic" src="https://www.xinyixianhua.com/resource/img/ewm_kefu.jpg"
+                                    alt="微信订花客服二维码" />
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="wrapper">
+                <a class="logo" href=""
+                    style="background-image: url('https://www.xinyixianhua.com/resource/img/logo.png')">心意鲜花网</a>
+                <div class="city-info">
+                    <div class="city">
+                        <a class="name" href="">放得开了疯狂法</a>按时缴费雷克萨弗利萨等级分类
+                    </div>
+                    <div class="slogan">提供全国鲜花预定、鲜花速递、网上送花订花服务!</div>
+                </div>
+                <div class="sch-wrap">
+                    <div class="schbar">
+                        <form id="searchform" class="searchclass" action="">
+                            <input id="searchkeywords" name="q" class="q" type="text" autocomplete="off" value="红玫瑰" />
+                            <button type="submit" class="tj">
+                                <span id="searchbutton" class="sr-only">搜索</span>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+                <div><span class="sr-only"></span><img src="https://www.xinyixianhua.com/resource/img/header-ad.jpg"
+                        class="ad" alt="鲜花预定电话" /></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="car">
+        <h2 class="wrapper"><a href="shoplist.html">继续购物</a></h2>
+        <table class="carall wrapper">
+            <thead class="cartitle">
+                <tr>
+                    <th>全选<input type="radio" class="choose"></th>
+                    <th>图片</th>
+                    <th>名字</th>
+                    <th>价格</th>
+                    <th>数量</th>
+                    <th>总价</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody class="carmain">
+                <tr>
+                    <td>购物车暂时为空，请<a href="shoplist.html">继续购物</a></td>
+                </tr>
+                <!-- <tr>
+                    <td><input type="radio"></td>
+                    <td><img src="" alt=""></td>
+                    <td  class="teshude"></td>
+                    <td></td>
+                    <td><input class="sumgb" type="number" min="1"></td>
+                    <td><span>删除</span></td>
+                    <td></td>
+                </tr> -->
+            </tbody>
+        </table>
+    </section>
+
+
+    <div class="footer-t clear">
+        <div class="wrapper">
+            <div class="inner-wrap">
+                <div class="item clear">
+                    <img class="ico" src="https://www.xinyixianhua.com/resource/img/ico/fs1.png" alt="新鲜花材" />
+                    <div class="cnt">
+                        <div class="tit">新鲜花材</div>
+                        <div class="desc">全国送花上门，快人一步</div>
+                    </div>
+                </div>
+                <div class="item  clear">
+                    <img class="ico" src="https://www.xinyixianhua.com/resource/img/ico/fs2.png" alt="诚信可靠" />
+                    <div class="cnt">
+                        <div class="tit">新鲜花材</div>
+                        <div class="desc">全国送花上门，快人一步</div>
+                    </div>
+                </div>
+                <div class="item  clear">
+                    <img class="ico" src="https://www.xinyixianhua.com/resource/img/ico/fs32.png" alt="1-3小时送花" />
+                    <div class="cnt">
+                        <div class="tit">新鲜花材</div>
+                        <div class="desc">全国送花上门，快人一步</div>
+                    </div>
+                </div>
+                <div class="item  clear">
+                    <img class="ico" src="https://www.xinyixianhua.com/resource/img/ico/pei.png" alt="200%退赔承诺" />
+                    <div class="cnt">
+                        <div class="tit">新鲜花材</div>
+                        <div class="desc">全国送花上门，快人一步</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-m clear">
+        <div class="wrapper">
+            <div class="col-links">
+                <div class="col">
+                    <div class="tit">客户服务</div>
+                    <ul class="list">
+                        <li><a href="#">客户服务</a></li>
+                        <li><a href="#">客户服务</a></li>
+                        <li><a href="#">客户服务</a></li>
+                        <li><a href="#">客户服务</a></li>
+                        <li><a href="#">客户服务</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="tit">服务支持</div>
+                    <ul class="list">
+                        <li><a href="#">服务支持</a></li>
+                        <li><a href="#">服务支持货款</a></li>
+                        <li><a href="#">服务支持</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="tit">商品配送</div>
+                    <ul class="list">
+                        <li><a href="#">商品配送</a></li>
+                        <li><a href="#">商品配送</a></li>
+                        <li><a href="#">商品配送</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="tit">售后服务</div>
+                    <ul class="list">
+                        <li><a href="#">商品配送</a></li>
+                        <li><a href="#">商品配送服务</a></li>
+                        <li><a href="#">商品配送服务</a></li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <div class="tit">心意鲜花网客服</div>
+                    <ul class="list">
+                        <li>客服热线:000-00000000</li>
+                        <li>投诉建议:0000000000</li>
+                        <li>客服邮箱:kefu@youxiang.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-erwei">
+                <div class="code">
+                    <img class="pic" src="https://www.xinyixianhua.com/resource/img/gg.jpg" alt="心意鲜花网二维码" />
+                    <div>关注微信公众号</div>
+                </div>
+                <div class="info">
+                    <div class="tel">
+                        <strong>000-00000000</strong>
+                    </div>
+                    <div>周一至周日：08:00-21:00</div>
+                    <div>心意鲜花速递送花上门</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="friend-links">
+        <ul>
+            <li>友情链接：</li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+            <li><a href="#">全国花店</a></li>
+        </ul>
+        <div style="clear:both;"></div>
+    </div>
+    <div class="footer">
+        <ul class="links">
+            <li><a href="#">鲜花速递</a></li>
+            <li><a href="#">鲜花速递</a></li>
+            <li><a href="#">鲜花速递</a></li>
+            <li><a href="#">鲜花速递</a></li>
+            <li><a href="#">鲜花速递</a></li>
+            <li><a href="#">鲜花速递</a></li>
+            <li><a href="#">鲜花速递</a></li>
+            <li><a href="#">鲜花速递</a></li>
+        </ul>
+        <div class="copyright">心意鲜花网 &copy; 2015-2019 发电量扩分散吗00000
+            <a href="#">心意鲜花网&nbsp;00000000000000</a>
+        </div>
+    </div>
 </body>
 <script src="js/ajax.js"></script>
 <script src="js/cookie.js"></script>
 <script>
-
-
-    class Car{
-        constructor(options){
+    class Car {
+        constructor(options) {
             this.url = options.url;
             this.tbody = options.tbody;
-            
-            // 1.读取到所有商品数据
-            this.load();
+            // 读取商品信息
+            this.read();
 
-            // 5.事件委托绑定事件
-            this.addEvent();
+            this.weiEvent();
         }
-        load(){
-            var that = this;
-            ajaxGet(this.url,function(res){
-                that.res = JSON.parse(res);
-                // 2.读取到cookie
-                that.getCookie();
+
+        read() {
+            var _this = this;
+            ajaxGet(this.url, function (e) {
+                // console.log(e);
+                _this.e = JSON.parse(e);
+                // console.log(_this.e);
+                // 读取cookie
+                _this.getCookie();
             })
         }
-        getCookie(){
+        getCookie() {
+            // 判断是否有cookie 
             this.goods = getCookie("goods") ? JSON.parse(getCookie("goods")) : [];
-            // 3.拿到cookie中的id与所有商品数据的goodsId做比较
+            // console.log(this.goods);    
             this.display();
         }
-        display(){
+
+        // 以cookie的id与商品goodId比较 相同时渲染页面数据拼接到页面中
+        display() {
             var str = "";
-            for(var i=0;i<this.res.length;i++){
-                for(var j=0;j<this.goods.length;j++){
-                    if(this.res[i].goodsId === this.goods[j].id){
-                        // 4.相同了，渲染这个数据（就是添加到购物车的商品）
+
+            for (var i = 0; i < this.e.length; i++) {
+                for (var j = 0; j < this.goods.length; j++) {
+                    if (this.e[i].goodsId === this.goods[j].id) {
                         str += `<tr index="${this.goods[j].id}">
-                                    <td><img src="${this.res[i].img}" alt=""></td>
-                                    <td>${this.res[i].name}</td>
-                                    <td>${this.res[i].price}</td>
-                                    <td><input type="number" min="1" value="${this.goods[j].num}"></td>
+                                    <td><input type="radio"></td>
+                                    <td><img src="${this.e[i].img}" alt=""></td>
+                                    <td class="teshude">${this.e[i].name}</td>
+                                    <td>${this.e[i].price}</td>
+                                    <td><input class="sumgb" type="number" min="1" value="${this.goods[j].num}"></td>
+                                    <td>${(this.e[i].price) * (this.goods[j].num)}</td>
                                     <td><span>删除</span></td>
-                                </tr>`
+                                </tr>`;
                     }
                 }
             }
             this.tbody.innerHTML = str;
         }
-        addEvent(){
-            var that = this;
-            // 5-1.委托删除的事件
-            this.tbody.addEventListener("click",function(eve){
-                if(eve.target.tagName == "SPAN"){
-                    // 6-1.保存要删除的数据的id
-                    that.id = eve.target.parentNode.parentNode.getAttribute("index");
-                    // 7-1.删除DOM元素
-                    eve.target.parentNode.parentNode.remove();
-                    // 8-1.调用更新cookie方法，传入删除操作
-                    // 是真正的删除cookie么？不是
-                    // 因为只有一条cookie，里面的数据是数组的形式
-                    // 从这条cookie中剔除出这个数据
-                    that.updateCookie(function(i){
-                        that.goods.splice(i,1);
-                    });
+        weiEvent() {
+            var _this = this;
+            this.tbody.addEventListener("click", function (e) {
+                if (e.target.tagName == "SPAN") {
+                    _this.id = e.target.parentNode.parentNode.getAttribute("index");
+                    e.target.parentNode.parentNode.remove();
+                    _this.delCookie();
                 }
             })
-            // 5-2.委托修改的事件
-            this.tbody.addEventListener("input",function(eve){
-                if(eve.target.tagName == "INPUT"){
-                    // 6-2.保存要修改的数据的id
-                    that.id = eve.target.parentNode.parentNode.getAttribute("index");
-                    // 7-2.调用更新cookie的方法，传入修改操作
-                    that.updateCookie(function(i){
-                        that.goods[i].num = eve.target.value;
-                    });
+            this.tbody.addEventListener("input", function (e) {
+                if (e.target.tagName == "INPUT") {
+                    _this.id = e.target.parentNode.parentNode.getAttribute("index");
+                    _this.value = e.target.value;
+                    _this.changeCookie();
                 }
             })
         }
-        updateCookie(cb){
-            // 更新cookie的功能方法：
-            // U1.遍历数组，拿到所有数据
-            for(var i=0;i<this.goods.length;i++){
-                // U2.和当前id做比较
-                if(this.goods[i].id === this.id){
-                    // U3.符合，执行传入的更新操作
-                    cb(i);
+        delCookie() {
+            for (var i = 0; i < this.goods.length; i++) {
+                if (this.goods[i].id === this.id) {
+                    this.goods.splice(i, 1);
                 }
             }
-            // U4.还得再存回去
-            setCookie("goods",JSON.stringify(this.goods))
+            setCookie("goods", JSON.stringify(this.goods));
         }
-    }
+        changeCookie() {
+            for (var i = 0; i < this.goods.length; i++) {
+                if (this.goods[i].id === this.id) {
+                    this.goods[i].num = this.value;
+                }
+            }
+            setCookie("goods", JSON.stringify(this.goods));
+        }
 
+    }
     new Car({
-        url:"http://localhost/1023-server/floors/xianhua/json/goods.json",
-        tbody:document.querySelector("tbody")
+        url: "http://localhost/1023-server/floors/xianhua/json/shopde.json",
+        tbody: document.querySelector("tbody")
     })
 
-
-    // 作业：
-    //     1.增加单个商品总价
-    //     2.增加全选，单选
-    //     3.增加总价和总数量
-    //     4.增加全部删除
-
-
 </script>
+
 </html>

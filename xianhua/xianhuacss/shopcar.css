@@ -1,181 +1,56 @@
-#index-content {
-    width: 100%;
-    margin: 20px auto 0px;
-    padding-bottom: 50px;
+
+
+.car{
+    margin: 30px 0 80px 0;
 }
-.index-content {
-    width: 1208px;
-    margin: 0 auto;
+h2{
+    line-height: 50px;
+    font-size: 30px;
 }
-.cart {
-    float: left;
-    width: 1208px;
-}
-.cart-nr {
-    float: left;
-    width: 1206px;
-    border-bottom: 1px #e0e0e0 solid;
-}
-.cart-nr-ti {
-    float: left;
-    width: 1186px;
+.car .carall .cartitle{
+    width: 100px;
     height: 40px;
-    color: #fff;
-    padding: 0px 10px;
-    position: relative;
-    margin-bottom: -1px;
-    z-index: 0;
-    margin-top: 30px;
+    border: solid 1px #ccc;
+    font-size: 20px;
+    line-height: 40px;
 }
-.cart_tit_l {
-    float: left;
-    height: 100%;
-    width: 600px;
-    white-space: nowrap;
-    position: relative;
-    z-index: 3;
-    padding-right: -400px;
+.car .carall .cartitle tr{
+    display: flex;
+    justify-content: space-around;   
 }
-.dyq_index {
-    z-index: 4;
-}
-.cart-nr-ti span {
-    float: left;
-    text-align: center;
-    line-height: 39px;
-    color: #333;
-}
-.cart-nr-ti span.price {
-    width: 100px;
-}
-.cart-nr-ti span.num {
-    width: 160px;
-}
-.span_li_sub {
-    width: 120px;
-}
-.span_li_w {
-    width: 100px;
-}
-.cart_checkbox, .cart_checkbox_dis {
-    width: 12px;
-    height: 12px;
-    margin: 13px 10px 15px 0px;
+.car .carall .cartitle th{
     display: inline-block;
-    *display: inline;
-    *zoom: 1;
-    outline: none;
-    overflow: hidden;
 }
-.cart .fl {
-    float: left;
-    _display: inline;
+.car .carall .carmain{
+    border: solid 1px #ccc;
+    margin: 0 auto;
+    
 }
-.padding-top {
-    padding-top: 10px;
+.car .carall .carmain tr{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px #ccc;
 }
-.float-left {
-    float: left !important;
-}
-.text-center {
-    text-align: center;
-}
-.w10 {
-    width: 100%;
-}
-.text-c {
-    color: #ccc;
-}
-.padding-t-5 {
-    padding-top: 5px;
-}
-.cart-nr-zj {
-    float: left;
-    height: 70px;
-    width: 1206px;
-    margin: 10px 0px;
-    background: #f0f0f0;
-    color: #333;
-}
-.cart-qx {
-    padding-left: 10px;
-}
-.cart-x {
-    float: left;
-    width: 85px;
-}
-.cart-checkbox-zj {
-    width: 12px;
-    height: 70px;
-    line-height: 70px;
+.car .carall .carmain td{
     display: inline-block;
-    *display: inline;
-    *zoom: 1;
-    outline: none;
-    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px 0;
+
 }
-.cart-nr-zj-qx {
-    line-height: 70px;
+.car .carall .carmain input{
+    display: inline-block;
 }
-.cart-qx {
-    padding-left: 10px;
-}
-.cart-nr-zj-w {
-    float: left;
-    width: 120px;
-}
-.cart-nr-zj-botton {
-    float: right;
-    text-align: center;
-    height: 70px;
-    padding: 0px 15px;
-    line-height: 70px;
-    font-size: 24px;
-    background: #fd7400;
-    color: #fff;
-}
-.cart-nr-zj-botton a {
-    cursor: pointer;
-    color: #fff;
-    font-size: 24px;
-}
-.cart-nr-zj-ri {
-    float: right;
-    padding-right: 20px;
-    width: 220px;
-    margin: 10px 0px;
-    text-align: right;
-}
-.cart-nr-zj-ri-jq {
-    float: left;
-    width: 100%;
-}
-#data{
-    width:800px;text-align:center;
-}
-.tab{
-    margin:0 auto;
-}
-.tab img{
-    width:50px;
-}
-.tab td{
+
+.car .carall .carmain img{
+    width: 60px;
+    font-size: 30px;
     text-align: center;
 }
-.tab td span{
-    display:inline-block;
-    width:50px;
-    background:red;
-    border-radius: 4px;
-    color:#fff;
-    cursor:pointer;
+
+.car .carall .carmain td .sumgb{
+    width: 60px;
 }
-.tab td.num {
-    width: 160px;
-}
-.tab td.price {
+.car .carall .carmain .teshude{
     width: 100px;
 }
-.tab td.w1{
-    width:100px;
-}
+
