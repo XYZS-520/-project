@@ -45,10 +45,10 @@
                             <i>用户名&nbsp;</i><input type="text" id="user" required=true class="user"><br>
                         </div>
                         <div class="passwod">
-                            密&nbsp;码&nbsp;<input type="text" id="pass" class="pass"><br>
+                            密&nbsp;码&nbsp;<input type="password" id="pass" class="pass"><br>
                         </div>
                         <div class="passwod2">
-                            确&nbsp;认&nbsp;<input type="text" id="pass2" class="pass2" equalTo="#pass"><br>
+                            确&nbsp;认&nbsp;<input type="password" id="pass2" class="pass2" equalTo="#pass"><br>
                         </div>
                         <input type="submit" value="注册" id="btn" class="btn">
                         <span></span>
@@ -59,11 +59,11 @@
     </div>
 </body>
 <script src="../js/jquery.js"></script>
-<script src="js/jquery.validate.js"></script>
+<!-- <script src="js/jquery.validate.js"></script>
 <script src="js/jquery.validate.messages_zh.js"></script>
 <script>
     $('form').validate()
-</script>
+</script> -->
 <script>
 
     class Register {
@@ -106,7 +106,7 @@
                         user: this.user.value,
                         pass: this.pass.value,
                         onoff: 0
-                    })
+                    }) 
                 }
             }
 

@@ -10,6 +10,7 @@ class List{
         ajaxGet(this.url,function(res){
             that.res = JSON.parse(res);
             that.getCookie();
+            
             that.display()
         })
     }
@@ -23,7 +24,6 @@ class List{
     display(){
         // console.log(this.goods)
         var str = "";
-        
         // for(var i = 0; i < this.e.length; i++){
         //     for(var j = 0; j < this.goods.length; j++){
         //         if(this.e[i].goodsId === this.goods[j].id) {
@@ -39,7 +39,6 @@ class List{
         //         }
         //     }
         // }
-
         for(var i=0;i<this.res.length;i++){
             if(this.res[i].goodsId === this.goods[this.goods.length-1].id) {
                     
@@ -133,10 +132,24 @@ class List{
         this.cont.onclick = function(eve){
             if(eve.target.className == "btn"){
                 that.id = eve.target.parentNode.parentNode.parentNode.parentNode.parentNode.getAttribute("index");
+                // that.delete();
                 that.setCookie();
             }
         }
     }
+
+    // delete(){
+    //     var that = this;
+    //     this.html.addEventListener("scroll",function(eve){
+    //         if(eve.target.tagName == "SPAN"){
+    //             that.id = eve.target.parentNode.parentNode.getAttribute("index");
+    //             eve.target.parentNode.parentNode.remove();
+    //             that.updateCookie(function(i){
+    //                 that.goods.splice(i,1);
+    //             });
+    //         }
+    //     })
+    // }
     setCookie(){
         this.goods = getCookie("goods") ? JSON.parse(getCookie("goods")) : [];
         if(this.goods.length == 0){
@@ -162,10 +175,10 @@ class List{
         }
         // console.log(this.goods)
         setCookie("goods",JSON.stringify(this.goods));
-        
     }
 }
 new List({
     url:"http://localhost/1023-server/floors/xianhua/json/shopde.json",
     cont:document.querySelector(".cont")
 })
+

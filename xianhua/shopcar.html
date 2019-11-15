@@ -18,7 +18,7 @@
 
     <div id="topAll"></div>
 
-    <section class="car">
+    <section class="car ">
         <h2 class="wrapper"><a href="shoplist.html">继续购物</a></h2>
         <table class="carall wrapper">
             <thead class="cartitle">
@@ -45,12 +45,25 @@
                     <td><span>删除</span></td>
                     <td></td>
                 </tr> -->
+
             </tbody>
+            
         </table>
+       <div class="wrapper">
+            <div class="carmain-b " style="position:relative;background-color: #eee;width:100%;height:60px">
+                <div>
+                    <i style="display:block;font-size: 20px;position: absolute;right: 60px;top: 9px;">结算
+                        <input type="button" value="去支付"
+                            style="width:50px;line-height:24px;text-align:center;color:#fff;border:none;border-radius:16% 16% 16% 16%;margin-left:90px;background-color:#f00;">
+                    </i>
+                </div>
+            </div>
+        </div>
+
     </section>
 
     <div id="footerAll"></div>
-   
+
 </body>
 <script src="js/ajax.js"></script>
 <script src="js/cookie.js"></script>
@@ -97,8 +110,9 @@
                                     <td>${this.e[i].price}</td>
                                     <td><input class="sumgb" type="number" min="1" value="${this.goods[j].num}"></td>
                                     <td>${(this.e[i].price) * (this.goods[j].num)}</td>
-                                    <td><span>删除</span></td>
-                                </tr>`;
+                                    <td><span style="background-color: #f00;width: 43px;line-height: 24px;display: block;vertical-align: middle;text-align: center;color: #fff;border-radius:16% 16% 16% 16%;">删除</span></td>
+                                </tr>
+                                 `;
                     }
                 }
             }
@@ -147,9 +161,10 @@
 </script>
 
 <script>
-     $(function(){
+    $(function () {
         $("#topAll").load("http://localhost/1023-server/floors/xianhua/html-header/topAll.html .topAll");
         $("#footerAll").load("http://localhost/1023-server/floors/xianhua/html-header/footer.html .footerAll");
     })
 </script>
+
 </html>

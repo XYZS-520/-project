@@ -53,4 +53,6 @@ h2{
 .car .carall .carmain .teshude{
     width: 100px;
 }
-
+.car .carall .carmain .carmain-b {
+    background-color: #ccc;
+}

@@ -17,7 +17,7 @@ class List {
         for (var i = 0; i < this.res.length; i++) {
             str += `<li  class="box" index="${this.res[i].goodsId}">
                         <a href="shopdetails.html" class="shoplistimg">
-                            <img src="${this.res[i].img}" alt="">
+                            <img src="${this.res[i].img}" alt="" class="ibtn">
                         </a>
                         <div class="shopxinxi">
                             <div class="shopxinxi-t">
@@ -37,8 +37,8 @@ class List {
     addEvent() {
         var that = this;
         this.cont.onclick = function (eve) {
-            if (eve.target.className == "btn") {
-                that.id = eve.target.parentNode.parentNode.parentNode.getAttribute("index");
+            if (eve.target.className == "ibtn") {
+                that.id = eve.target.parentNode.parentNode.getAttribute("index");
                 that.setCookie();
             }
         }
