@@ -31,6 +31,9 @@ h2{
     justify-content: space-between;
     border-bottom: solid 1px #ccc;
 }
+.car .carall .carmain tr td{
+    font-size: 20px;
+}
 .car .carall .carmain td{
     display: inline-block;
     margin: 0 auto;

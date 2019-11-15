@@ -9,39 +9,21 @@ class List{
         var that = this;
         ajaxGet(this.url,function(res){
             that.res = JSON.parse(res);
-            that.getCookie();
-            
+            // that.getCookie();
+            that.onstor();
             that.display()
         })
     }
-    getCookie() {
-        // 判断是否有cookie 
-        this.goods = getCookie("goods") ? JSON.parse(getCookie("goods")) : [];
-        console.log(this.goods);    
-        // this.display();
+    onstor() {
+        this.ids = sessionStorage.getItem("ids");
+        // console.log(this.ids);
     }
+    
 
     display(){
-        // console.log(this.goods)
         var str = "";
-        // for(var i = 0; i < this.e.length; i++){
-        //     for(var j = 0; j < this.goods.length; j++){
-        //         if(this.e[i].goodsId === this.goods[j].id) {
-        //             str += `<tr index="${this.goods[j].id}">
-        //                         <td><input type="radio"></td>
-        //                         <td><img src="${this.e[i].img}" alt=""></td>
-        //                         <td>${this.e[i].name}</td>
-        //                         <td>${this.e[i].price}</td>
-        //                         <td><input type="number" min="1" value="${this.goods[j].num}"></td>
-        //                         <td><span>删除</span></td>
-        //                         <td>${(this.e[i].price) * (this.goods[j].num)}</td>
-        //                     </tr>`;
-        //         }
-        //     }
-        // }
         for(var i=0;i<this.res.length;i++){
-            if(this.res[i].goodsId === this.goods[this.goods.length-1].id) {
-                    
+            if(this.res[i].goodsId === this.ids) {
             str +=  `<div class="box" index="${this.res[i].goodsId}"> 
                         <div class="shopmain-l">
                             <div class="shopmian-l-box">
@@ -138,18 +120,6 @@ class List{
         }
     }
 
-    // delete(){
-    //     var that = this;
-    //     this.html.addEventListener("scroll",function(eve){
-    //         if(eve.target.tagName == "SPAN"){
-    //             that.id = eve.target.parentNode.parentNode.getAttribute("index");
-    //             eve.target.parentNode.parentNode.remove();
-    //             that.updateCookie(function(i){
-    //                 that.goods.splice(i,1);
-    //             });
-    //         }
-    //     })
-    // }
     setCookie(){
         this.goods = getCookie("goods") ? JSON.parse(getCookie("goods")) : [];
         if(this.goods.length == 0){
